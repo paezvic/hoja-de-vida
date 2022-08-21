@@ -1,0 +1,100 @@
+body
+    {
+        background-color: #475e56;
+        position: relative;
+    }
+
+#cabeza
+    {
+        border-radius: 20px;
+        background-color: #e1fbfb;
+        border: 2px solid black  ;
+        height:170px;
+        margin:0 auto;
+        width: 60%;
+        display: flex;
+    }
+
+#nombre
+    {
+        text-transform: capitalize;
+        font-style: oblique;
+        text-shadow: -2px 2px 1px #796b6b;
+        text-decoration:  underline;
+        margin: auto;
+    }
+
+#prof
+    {
+        text-transform: capitalize;
+        font-style: oblique;
+        text-shadow: -2px 2px 1px #796b6b;
+        text-decoration:  underline;
+        float: left;
+        margin: auto;
+    }
+img
+    {
+        width: 120px;
+        height: 160px;
+        border-radius: 40%;
+        margin-top: 3px;
+        
+    }
+#principal
+    {
+        border-radius: 20px;
+        background-color: #e1fbfb;
+        border: 2px solid black  ;
+        height:580px;
+        margin:0 auto;
+        width: 60%;
+        margin-top: 3px;
+    }
+#adentro
+    {
+        text-align: justify;
+        margin: 0 auto;
+        background-color: #b5f9f9;
+        width: 45%;
+        height: 95%;
+        margin-top: 10px;
+        float: left;  
+    }
+
+#linea
+    {
+        border-left:3px solid #000000;
+        height: 565px;
+        position: absolute;
+        left: 47%;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+legend
+    {
+        padding: 5px;
+        font-style: oblique;
+        text-shadow: -2px 2px 1px #796b6b;
+        background-color: aquamarine;
+        border-radius: 15px;
+        text-transform: capitalize;
+    }
+fieldset
+    {
+        width: 50%;
+        float: right;
+        margin-top: 30px;
+    }
+h2
+    {
+        font-style: oblique;
+        text-shadow: -2px 2px 1px #796b6b;
+        text-decoration: underline overline;
+    }
+h3
+    {
+        font-style: oblique;
+        text-shadow: -2px 2px 1px #796b6b;
+        text-decoration: underline overline;
+    }
