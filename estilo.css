@@ -53,6 +53,7 @@ img
     }
 #adentro
     {
+        border-radius: 15px;
         text-align: justify;
         margin: 0 auto;
         background-color: #b5f9f9;
