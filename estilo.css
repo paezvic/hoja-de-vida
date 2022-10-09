@@ -1,19 +1,37 @@
-body
-    {
-        background-color: #475e56;
-        position: relative;
-    }
-
-#cabeza
-    {
-        border-radius: 20px;
-        background-color: #e1fbfb;
-        border: 2px solid black  ;
-        height:170px;
-        margin:0 auto;
-        width: 60%;
-        display: flex;
-    }
+ body 
+{
+    background-color: #475e56;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main 
+{
+     flex: 1 0 auto;
+}
+     
+          
+.page-footer
+{
+    background-color: #0f6e6e;
+    font-style: oblique;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.collapsible
+{
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: none;
+    
+}
+.collapsible-header
+{
+    background-color: #0f6e6e;
+    border-radius: 20px;
+}
 
 #nombre
     {
@@ -44,11 +62,11 @@ img
 #principal
     {
         border-radius: 20px;
-        background-color: #e1fbfb;
+        background-color: #0f6e6e;
         border: 2px solid black  ;
-        height:580px;
+        height:auto;
         margin:0 auto;
-        width: 60%;
+        width: 95%;
         margin-top: 3px;
     }
 #adentro
@@ -81,13 +99,13 @@ legend
         border-radius: 15px;
         text-transform: capitalize;
     }
-fieldset
+/*fieldset
     {
         width: 50%;
         float: right;
         margin-top: 30px;
-    }
-h2
+    }*/
+h6
     {
         font-style: oblique;
         text-shadow: -2px 2px 1px #796b6b;

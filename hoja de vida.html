@@ -5,22 +5,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victor paez</title>
+    <title>Victor paez</title>   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-    <div id="cabeza">
-        <h3>Hoja de vida</h3>
-        <h1 id="nombre">victor alfonso <br> paez galeon</h1>
-        <img src="foto.jpg">
-        <h1 id="prof">profesional <br> en sistemas</h1>
+    <!-- aqui esta el footer -->
+    <footer class="page-footer" >
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h4 class="black-text">victor alfonso <br> paez galeon</h4>
+              <p class="black-text text-lighten-4"> profesional  en sistemas.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="black-text">Foto</h5>
+                <img src="foto.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright"  >
+          <div class="container">
+            Hoja de vida
+          <a class="grey-text text-lighten-4 right" href="#!">mas información</a>
+          </div>
+        </div>
+      </footer>
+          
+    <!-- aqui esta el collapsible -->
+      <ul class="collapsible">
+        <li>
+            <div class="collapsible-header"><i class="material-icons">folder_shared</i><h6> información Completa</h6></div>
+            <div class="collapsible-body" id="collapsibleinnforcom">
+                <div id="principal" class="container">
+                    <div class="row row-cols-1 row-cols-md-2">
+                    <div id="adentro" class="col mb-6" >
+                        <h2> Mi Perfil</h2>
+        
+                        Ingeniero de Sistemas capacidades investigativas e informativas que permiten definir diseñar y construir,
+                        evaluar, auditar y mantener sistemas informativos. . Habilidades en el desarrollo rápido de aplicaciones
+                        como soluciones
+                        Software enfocados a los fortalecer los procesos de la cadena de valor de la empresa localización y
+                        corrección de fallas a nivel Hardware y Software en equipos de Cómputo y móviles con planeación de
+                        estrategias para prevención de errores y alta disponibilidad de los puestos de trabajo. Experiencia en la
+                        recuperación de sistemas afectados por software dañino y malintencionado. Conocimiento de: lenguajes de
+                        Programación aplicaciones web CMS bases de datos, lógica de programación, administración de Bases de Datos
+                        mysql postgrest SQL server, arquitectura empresarial y Business Process Modeling Notation desarrollo de
+                        proyectos informáticos, herramientas de de programación estructurada, programación orientada a objetos y
+                        servicios tecnologías móviles e inalámbricas, seguridad computacional administración de sistemas de
+                        información modelamiento de sistemas organizacionales gestión de proyectos de software e informáticos y
+                        diseño construcción y mantenimiento de aplicaciones y sitios web.
+        
+                    </div>
+        
+        
+                    <fieldset>
+                        <legend> Datos personales</legend>
+                        <ul>
+                            <li> <b> direccion </b>: carrera 97 # 153-66</li>
+                            <li> <b> numero telefonico </b>: 3206583377</li>
+                            <li> <b> correo electronico </b>: Galeonpa@gmail.com</li>
+                        </ul>
+                    </fieldset>
+            
+                    <fieldset>
+                        <legend> estudios </legend>
+                        <ul>
+                            <li> <b> bachiller </b>: Colegio San Jose De Caldas</li>
+                            <li> <b> estudios profesionales </b>: </li>
+                            <ol>
+                                <li>Tecnico en sistemas</li>
+                                <li>ingenieria sistemas</li>
+                                <li>idiomas</li>
+                            </ol>
+                        </ul>
+                    </fieldset>
+        
+                    <fieldset>
+                        <legend> experiencias laborales</legend>
+                        <li> <b> U.T ECOVIAS </b> :Programador y documentador 
+                            de obras civiles para mantenimiento y adecuación de locaciones,
+                            5 meses </li>
+                        <li> <b> CONSORCIO C&C </b>: Auxiliar de programación de proyectos de obras
+                            de construcción de líneas de flujo 11 meses  </li>
+                    </fieldset>
+                </div>
+            </div>
+            </div>
+        </li>
 
-    </div>
-    <div id="principal">
-        <div id="adentro">
-            <h2> Mi Perfil</h2>
-
+        <li>
+          <div class="collapsible-header"><i class="material-icons">person</i><h6> Mi Perfil</h6></div>
+          <div class="collapsible-body"><span>            
             Ingeniero de Sistemas capacidades investigativas e informativas que permiten definir diseñar y construir,
             evaluar, auditar y mantener sistemas informativos. . Habilidades en el desarrollo rápido de aplicaciones
             como soluciones
@@ -33,41 +112,59 @@
             proyectos informáticos, herramientas de de programación estructurada, programación orientada a objetos y
             servicios tecnologías móviles e inalámbricas, seguridad computacional administración de sistemas de
             información modelamiento de sistemas organizacionales gestión de proyectos de software e informáticos y
-            diseño construcción y mantenimiento de aplicaciones y sitios web.
+            diseño construcción y mantenimiento de aplicaciones y sitios web.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">psychology</i><h6> Datos Personales</h6></div>
+          <div class="collapsible-body"><span>
+            <fieldset>
+                <legend> Datos personales</legend>
+                <ul>
+                    <li> <b> direccion </b>: carrera 97 # 153-66</li>
+                    <li> <b> numero telefonico </b>: 3206583377</li>
+                    <li> <b> correo electronico </b>: Galeonpa@gmail.com</li>
+                </ul>
+            </fieldset>
+          </span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">bookmark</i><h6> Estudios</h6></div>
+          <div class="collapsible-body"><span>
+            <fieldset>
+                <legend> estudios </legend>
+                <ul>
+                    <li> <b> bachiller </b>: Colegio San Jose De Caldas</li>
+                    <li> <b> estudios profesionales </b>: </li>
+                    <ol>
+                        <li>Tecnico en sistemas</li>
+                        <li>ingenieria sistemas</li>
+                        <li>idiomas</li>
+                    </ol>
+                </ul>
+            </fieldset>
+          </span></div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="material-icons">work</i><h6> Experiencias Laborales</h6></div>
+            <div class="collapsible-body"><span>
+                <fieldset>
+                    <legend> experiencias laborales</legend>
+                    <li> <b> U.T ECOVIAS </b> :Programador y documentador 
+                        de obras civiles para mantenimiento y adecuación de locaciones,
+                        5 meses </li>
+                    <li> <b> CONSORCIO C&C </b>: Auxiliar de programación de proyectos de obras
+                         de construcción de líneas de flujo 11 meses  </li>
+                </fieldset>
+            </span></div>
+        </li>
+      </ul>
 
-        </div>
-        <div id="linea"></div>
-        <fieldset>
-            <legend> Datos personales</legend>
-            <ul>
-                <li> <b> direccion </b>: carrera 97 # 153-66</li>
-                <li> <b> numero telefonico </b>: 3206583377</li>
-                <li> <b> correo electronico </b>: Galeonpa@gmail.com</li>
-            </ul>
-        </fieldset>
 
-        <fieldset>
-            <legend> estudios </legend>
-            <ul>
-                <li> <b> bachiller </b>: Colegio San Jose De Caldas</li>
-                <li> <b> estudios profesionales </b>: </li>
-                <ol>
-                    <li>Tecnico en sistemas</li>
-                    <li>ingenieria sistemas</li>
-                    <li>idiomas</li>
-                </ol>
-            </ul>
-        </fieldset>
-
-        <fieldset>
-            <legend> experiencias laborales</legend>
-            <li> <b> U.T ECOVIAS </b> :Programador y documentador 
-                de obras civiles para mantenimiento y adecuación de locaciones,
-                5 meses </li>
-            <li> <b> CONSORCIO C&C </b>: Auxiliar de programación de proyectos de obras
-                 de construcción de líneas de flujo 11 meses  </li>
-        </fieldset>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
 </body>
-
+<script>$(document).ready(function(){
+    $('.collapsible').collapsible();
+  });</script>
 </html>
